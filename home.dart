@@ -16,19 +16,19 @@ class Home extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
-              onPressed: () => Navigator.pushNamed(context, 'c'), 
+              onPressed: () => Navigator.pushNamed(context, '/c'), 
               child: Text('Go To the Screen ChangJun'),
             ),
             ElevatedButton(
-              onPressed: () => Navigator.pushNamed(context, 'i'), 
+              onPressed: () => Navigator.pushNamed(context, '/i'), 
               child: Text('Go To the Screen InHwan'),
             ),
             ElevatedButton(
-              onPressed: () => Navigator.pushNamed(context, 'k'), 
+              onPressed: () => Navigator.pushNamed(context, '/k'), 
               child: Text('Go To the Screen KimSuA'),
             ),
             ElevatedButton(
-              onPressed: () => Navigator.pushNamed(context, 's'), 
+              onPressed: () => Navigator.pushNamed(context, '/s'), 
               child: Text('Go To the Screen SangHoon'),
             ),
           ],
