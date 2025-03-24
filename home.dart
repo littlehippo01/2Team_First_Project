@@ -8,9 +8,12 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("2팀 첫번째 프로젝트"),
+        backgroundColor: Colors.deepPurple[600],
+        foregroundColor: Colors.white,
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, 'c'), 
