@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:team2_1st_proj_app/view/changjun.dart';
+import 'package:team2_1st_proj_app/view/inhwan.dart';
+import 'package:team2_1st_proj_app/view/kimsua.dart';
+import 'package:team2_1st_proj_app/view/sanghoon.dart';
+
 import 'home.dart';
-import 'view.dart/changjun.dart';
-import 'view.dart/inhwan.dart';
-import 'view.dart/kinsua.dart';
-import 'view.dart/sanghoon.dart';
 
 void main() {
   runApp(const MyApp());

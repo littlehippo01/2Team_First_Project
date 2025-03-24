@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:team2_1st_proj_app/view.dart/inhwan01.dart';
+import 'package:team2_1st_proj_app/view/inhwan01.dart';
 
 class Inhwan extends StatelessWidget {
   const Inhwan({super.key});
