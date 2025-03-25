@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:team2_first_proj_app/view/changjun2.dart';
+import 'package:team2_1st_proj_app/view/changjun2.dart';
 
 class Changjun extends StatelessWidget {
   const Changjun({super.key});
